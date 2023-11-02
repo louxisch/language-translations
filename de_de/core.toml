@@ -1,0 +1,70 @@
+# Languages
+language.change = "Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset><newline>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>."
+
+[gui.languages]
+untranslated.name = "Sprache nicht gefunden?"
+untranslated.lore.1 = "<green>Bewerbe dich<gray> als Übersetzer,"
+untranslated.lore.2 = "um deine Sprache zu übersetzen."
+untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Bewerbe dich hier!<reset>"
+
+# Gui
+[gui.common]
+error.clickitem = "Während du dieses Item geklickt hast, ist ein Fehler aufgetreten. Versuche es erneut oder kontaktiere den Support."
+
+# Games
+[games.phase.counter]
+secondsFormat = "Das Spiel startet in <pri><secondsLeft>s<reset>."
+
+# Commands
+[commands.common]
+target.offline = "Dieser Spieler ist nicht online."
+error = "Ein Fehler ist aufgetreten."
+
+[commands]
+coins.self.singular = "Du hast gerade <gold>ein Coin<reset>."
+coins.self.plural = "Du hast gerade <gold><coins> Coins<reset>."
+
+coins.other.singular = "<pri><target><reset> hat gerade <gold>ein Coin."
+coins.other.plural = "<pri><target><reset> hat gerade <gold><coins> Coins."
+
+xp.self = "Du hast <pri><xp><reset> XP und bist somit Level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+xp.other = "<target><reset> hat <pri><xp><reset> XP und ist somit Level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+
+ping.self = "Dein Ping ist: <pri><ping>"
+ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
+
+[commands.ranks]
+set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
+reload = "<green>Reloaded."
+
+[commands.test]
+coins.set = "Deine Coins wurden auf <gold><coins><reset> gesetzt."
+coins.remove = "Du hast nun <gold><coins><reset> Coins."
+coins.remove.missing = "Dir fehlen <gold><coins><reset> Coins."
+coins = "Du hast <gold><coins>"
+
+xp.add = "Deine XP wurden um <pri><xp><reset> XP erhöht."
+xp.set = "Deine XP wurden auf <pri><xp>reset> gesetzt."
+xp.reset = "Deine XP wurden zurückgesetzt."
+xp = "Du hast <pri><xp><reset> XP."
+
+nick.nick = "Du bist nun genickt als <pri><name><reset>."
+nick.nicked = "Du bist schon genickt."
+nick.unnick = "Du wurdest entnickt."
+nick.unnicked = "Du bist nicht genickt."
+
+uuid = "Deine UUID ist: <hover:show_text:'Rechtsklick zum kopieren'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
+
+[commands.help]
+header = "<pri>Informationen zu allen Commands:"
+
+[commands.help.command]
+leave = "<yellow>/l <dark_gray>-<reset> Verlässt die Runde, welche du gerade spielst"
+coins = "<yellow><click:suggest_command:'/coins '>/coins</click> <dark_gray>-</dark_gray> <reset>Zeigt deine Coins"
+friends = "<yellow><click:suggest_command:'/friends'>/friends</click> <dark_gray>-<reset> Öffnet das Freundemenü"
+friend_add = "<yellow><click:suggest_command:'/friend add '>/friend add</click> <dark_gray>-<reset> Öffnet das Freundemenü"
+clans = "<yellow><click:suggest_command:'/clan'>/clan</click> <dark_gray>-<reset> Öffnet das Clanmenü"
+report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-<reset> Meldet ein Spieler bei dem Serverteam"
+bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Meldet ein Bug bei dem Serverteam"
+profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt deine genauen Stats in jedem Modus an"
+stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die wichtigsten stats von dem Spieler"
