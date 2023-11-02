@@ -1,1 +1,7 @@
-# Core Translations
+language.change = "Your language is now English (United States)<newline>Help us translate the network into your language on <click:open_url'https://dc.kitpvp.world'>our Discord</click>."
+
+[gui.languages]
+untranslated.name = "Didn't find your language?"
+untranslated.lore.1 = "<green>Apply <gray>as a translator,"
+untranslated.lore.2 = "to translate your language."
+untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Apply here!<reset>"
