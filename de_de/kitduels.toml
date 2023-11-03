@@ -4,13 +4,18 @@ border = "Außerhalb der Border"
 noGame = "<red>Es wurde kein Spiel gefunden"
 
 [phases]
-gameStart = "<green>Lasst den Kampf beginnen."
+start = "<green>Lasst den Kampf beginnen."
 border = "Die Border beginnt sich zu verkleinern. Der Kampf endet in <minutesLeft> Minuten."
-gameEnded = "<red>Spiel zu Ende"
+stop = "<red>Spiel zu Ende"
+
+[event]
+player.leave = "<pri><name><reset> hat das Duel verlassen."
+player.join = "<pri><name><reset> hat das Spiel betreten."
 
 [win]
 damageTaken = "Schaden erlitten: <aqua><self></aqua>/<red><opponent></red>"
 elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
+win = "In einem epischem Kampf gegen Leben und Tot entschied <pri><name> <reset>für sich."
 
 [features]
 leave = "<red>Verlassen"
