@@ -14,6 +14,7 @@ error = "Ein Fehler ist aufgetreten."
 error.target.offline = "Dieser Spieler ist nicht online."
 error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
 error.rank.unknown = "Dieser Rang existiert nicht."
+error.kit.unknown = "Kit wurde nicht gefunden."
 
 # Chat
 [chat]
@@ -21,8 +22,8 @@ message.tooSimilar = "Diese Nachricht ähnelt sich zu sehr deiner letzten."
 
 # Games
 [games.phase.counter]
-starting.secondsFormat = "Das Spiel startet in <pri><secondsLeft>s<reset>."
-stopping.secondsFormat = "Das Spiel stoppt in <pri><secondsLeft>s<reset>."
+starting.secondsFormat = "Das Spiel startet in <pri><seconds_left>s<reset>."
+stopping.secondsFormat = "Das Spiel stoppt in <pri><seconds_left>s<reset>."
 
 # Commands
 
