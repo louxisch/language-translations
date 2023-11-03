@@ -7,18 +7,23 @@ untranslated.lore.1 = "<green>Bewerbe dich<gray> als Übersetzer,"
 untranslated.lore.2 = "um deine Sprache zu übersetzen."
 untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Bewerbe dich hier!<reset>"
 
-# Gui
-[gui.common]
+# Generic Things
+[generic]
 error.clickitem = "Während du dieses Item geklickt hast, ist ein Fehler aufgetreten. Versuche es erneut oder kontaktiere den Support."
+error = "Ein Fehler ist aufgetreten."
+error.target.offline = "Dieser Spieler ist nicht online."
+error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
+error.rank.unknown = "Dieser Rang existiert nicht."
+
+# Chat
+[chat]
+message.tooSimilar = "Diese Nachricht ähnelt sich zu sehr deiner letzten."
 
 # Games
 [games.phase.counter]
 secondsFormat = "Das Spiel startet in <pri><secondsLeft>s<reset>."
 
 # Commands
-[commands.common]
-target.offline = "Dieser Spieler ist nicht online."
-error = "Ein Fehler ist aufgetreten."
 
 [commands]
 coins.self.singular = "Du hast gerade <gold>ein Coin<reset>."
@@ -32,6 +37,8 @@ xp.other = "<target><reset> hat <pri><xp><reset> XP und ist somit Level <level><
 
 ping.self = "Dein Ping ist: <pri><ping>"
 ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
+
+language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Über"
 
 [commands.ranks]
 set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
