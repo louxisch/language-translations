@@ -1,0 +1,20 @@
+[error]
+notEnoughPlayers = "Nicht genügend Spieler online."
+border = "Außerhalb der Border"
+noGame = "<red>Es wurde kein Spiel gefunden"
+
+[phases]
+gameStart = "<green>Lasst den Kampf beginnen."
+border = "Die Border beginnt sich zu verkleinern. Der Kampf endet in <minutesLeft> Minuten."
+gameEnded = "<red>Spiel zu Ende"
+
+[win]
+damageTaken = "Schaden erlitten: <aqua><self></aqua>/<red><opponent></red>"
+elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
+
+[features]
+leave = "<red>Verlassen"
+
+[commands.game]
+error.minimum = "Es müssen zwei Spieler in einem Duel sein."
+start = "Starte Spiel <gameId>"
