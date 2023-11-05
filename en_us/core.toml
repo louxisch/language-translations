@@ -2,6 +2,7 @@
 language.change = "Your language is now English (United States)<newline>Help us translate the network into your language on <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>our Discord</click>."
 
 [gui.languages]
+title = "Change language"
 untranslated.name = "Didn't find your language?"
 untranslated.lore.1 = "<green>Apply <gray>as a translator,"
 untranslated.lore.2 = "to translate your language."
