@@ -1,5 +1,5 @@
 # Languages
-language.change = "Your language is now English (United States)<newline>Help us translate the network into your language on <click:open_url'https://dc.kitpvp.world'>our Discord</click>."
+language.change = "Your language is now English (United States)<newline>Help us translate the network into your language on <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>our Discord</click>."
 
 [gui.languages]
 untranslated.name = "Didn't find your language?"
@@ -11,14 +11,73 @@ untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Appl
 [gui.common]
 error.clickitem = "An unexpected error occurred trying to click that item"
 
+# Generic Things
+[generic]
+error.clickitem = "An error occurred. Try again or contact support."
+error = "An error occurred."
+error.target.offline = "This player is not online."
+error.target.unknown = "This player is unknown."
+error.rank.unknown = "This rank does not exist."
+error.kit.unknown = "Kit was not found."
+
+# Chat
+[chat]
+message.tooSimilar = "This message is too similar to your last one."
+
 # Games
 [games.phase.counter]
-secondsFormat = "The game starts in <pri><secondsLeft>s<reset>"
+starting.secondsFormat = "The game starts in <pri><secondsLeft>s<reset>."
+stopping.secondsFormat = "The game stops in <pri><seconds_left>s<reset>."
 
 # Commands
+
 [commands]
 coins.self.singular = "You currently have <gold>one Coin<reset>."
 coins.self.plural = "You currently have <gold><coins> Coins<reset>."
 
 coins.other.singular = "<pri><target><reset> currently has <gold>one Coin"
 coins.other.plural = "<pri><target><reset> currently has <gold><coins> Coins"
+
+xp.self = "You have <pri><xp><reset> XP and are therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
+
+ping.self = "Ping: <pri><ping>"
+ping.other = "The Ping of the player <sec><target><reset> is: <pri><ping>"
+
+language.unknown = "Language not found. <pri>Apply <reset> as a translator on <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>our Discord."
+
+[commands.ranks]
+set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
+reload = "<green>Reloaded."
+
+[commands.test]
+coins.set = "Your coins have been set to <gold><coins><reset>."
+coins.remove = "You now have <gold><coins><reset> coins."
+coins.remove.missing = "You are missing <gold><coins><reset> coins."
+coins = "You have <gold><coins>"
+
+xp.add = "Your XP has been increased by <pri><xp><reset> XP."
+xp.set = "Your XP has been set to <pri><xp>reset>."
+xp.reset = "Your XP has been reset."
+xp = "You have <pri><xp><reset> XP."
+
+nick.nick = "You now nicked as <pri><name><reset>."
+nick.nicked = "You already nicked."
+nick.unnick = "You are unnicked now."
+nick.unnicked = "You are not nicked"
+
+uuid = "Your UUID is: <hover:show_text:'Rechtsklick zum kopieren'><click:copy_to_clipboard:%1$s>%1$s</click></hover>"
+
+[commands.help]
+header = "<pri>IInformation about all commands:"
+
+[commands.help.command]
+leave = "<yellow>/l <dark_gray>-<reset> Leaves the round you are currently playing"
+coins = "<yellow><click:suggest_command:'/coins '>/coins</click> <dark_gray>-</dark_gray> <reset>Shows your coins"
+friends = "<yellow><click:suggest_command:'/friends'>/friends</click> <dark_gray>-<reset> Opens the friends menu"
+friend_add = "<yellow><click:suggest_command:'/friend add '>/friend add</click> <dark_gray>-<reset> Adds a friend"
+clans = "<yellow><click:suggest_command:'/clan'>/clan</click> <dark_gray>-<reset> Opens the clan menu"
+report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-<reset> Reports a player to the server team"
+bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Reports a bug to the server team"
+profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Shows your ranked stats in each mode"
+stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Shows the player's overall stats"
