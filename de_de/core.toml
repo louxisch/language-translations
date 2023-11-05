@@ -1,5 +1,5 @@
 # Languages
-language.change = "Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset><newline>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>."
+language.change = "Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset><newline>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
 [gui.languages]
 untranslated.name = "Sprache nicht gefunden?"
@@ -40,7 +40,7 @@ xp.other = "<target><reset> hat <pri><xp><reset> XP und ist somit Level <level><
 ping.self = "Dein Ping ist: <pri><ping>"
 ping.other = "Der Ping von <sec><target><reset> ist: <pri><ping>"
 
-language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Über"
+language.unknown = "Sprache nicht gefunden. <pri>Bewerbe dich<reset> als Übersetztr auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
 [commands.ranks]
 set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
@@ -75,5 +75,5 @@ friend_add = "<yellow><click:suggest_command:'/friend add '>/friend add</click> 
 clans = "<yellow><click:suggest_command:'/clan'>/clan</click> <dark_gray>-<reset> Öffnet das Clanmenü"
 report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-<reset> Meldet ein Spieler bei dem Serverteam"
 bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Meldet ein Bug bei dem Serverteam"
-profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt deine genauen Stats in jedem Modus an"
-stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die wichtigsten stats von dem Spieler"
+profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt die Ranked Stats von dem Spieler"
+stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die allgemeinen Stats von dem Spieler"
