@@ -2,6 +2,7 @@
 language.change = "Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset><newline>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
 
 [gui.languages]
+title = "Sprache ändern"
 untranslated.name = "Sprache nicht gefunden?"
 untranslated.lore.1 = "<green>Bewerbe dich<gray> als Übersetzer,"
 untranslated.lore.2 = "um deine Sprache zu übersetzen."
