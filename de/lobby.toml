@@ -31,3 +31,51 @@ error = "Ein Fehler ist passiert. Bitte versuche es erneut und kontaktiere den S
 reset = "Zurücksetzen"
 
 [scoreboard]
+clan = """
+  <br>Clan<gray>:
+  <br><gray><clan>
+  <br>
+  <br>Clan Elo<gray>:
+  <br><gray><clanelo>
+  <br>
+  <br>Clan Level<gray>:
+  <br><gray><clanlevel>★
+  <br>Clan Coins<gray>:
+  <br><gold><clancoins>
+  <br>Clan Spieler<gray>:
+  <br><aqua><onlineclanmembers><gray>/<dark_gray><totalclanmembers>
+"""
+
+self = """
+  <br>Rang<gray>:
+  <br><rank>
+  <br>
+  <br>Elo<gray>:
+  <br><gray><elo>
+  <br>
+  <br>Spielzeit<gray>:
+  <br><yellow><hours>h
+  <br>
+  <br>Coins<gray>:
+  <br><gold><coins>
+  <br>
+  <br>Freunde<gray>:
+  <br><green><onlinefriends><gray>/<dark_gray><totalfriends>
+"""
+
+selfSecondary = """
+  <br>Rang<gray>:
+  <br><rank>
+  <br>
+  <br>Elo<gray>:
+  <br><gray><elo>
+  <br>
+  <br>Level<gray>:
+  <br><level>
+  <br>
+  <br>Coins<gray>:
+  <br><gold><coins>
+  <br>
+  <br>Freunde<gray>:
+  <br><green><onlinefriends><gray>/<dark_gray><totalfriends>
+"""
