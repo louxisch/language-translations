@@ -1,0 +1,25 @@
+[error]
+notEnoughPlayers = "Not enough players online."
+border = "Out of border"
+noGame = "<red>No game found"
+
+[phases]
+start = "<green>Let the fight begin."
+border = "The border begins to shrink. The fight ends in <minutesLeft> minutes."
+stop = "<red>Game ended."
+
+[event]
+player.leave = "<pri><name><reset> left the duel."
+player.join = "<pri><name><reset> joined the duel."
+
+[win]
+damageTaken = "Damage took: <aqua><self></aqua>/<red><opponent></red>"
+elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>has defeated <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset>."
+win = "In an epic battle against life and death, <pri><name> <reset> won."
+
+[features]
+leave = "<red>Leave"
+
+[commands.game]
+error.minimum = "There must be at least two players in a duel."
+start = "Starting game <gameId>"
