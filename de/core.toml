@@ -1,12 +1,16 @@
 # Languages
-language.change = "Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset><newline>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>unserem Discord</color></click>."
+language.change = """
+  Deine Sprache ist nun <pri>Deutsch (Deutschland)<reset>.
+  <br>Hilf mit, das Netzwerk in deine Sprache zu übersetzen auf <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>."
 
 [gui.languages]
 title = "Sprache ändern"
-untranslated.name = "Sprache nicht gefunden?"
-untranslated.lore.1 = "<green>Bewerbe dich<gray> als Übersetzer,"
-untranslated.lore.2 = "um deine Sprache zu übersetzen."
-untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Bewerbe dich hier!<reset>"
+untranslated.name = "<gray>Sprache nicht gefunden?"
+untranslated.lore = """
+  <green>Hilf mit<gray>, das Netzwerk"
+  <br><gray>in deine Sprache zu übersetzen.
+"""
+untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset"
 
 # Generic Things
 [generic]
