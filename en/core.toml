@@ -6,10 +6,12 @@ language.change = """
 
 [gui.languages]
 title = "Change language"
-untranslated.name = "Didn't find your language?"
-untranslated.lore.1 = "<green>Apply <gray>as a translator,"
-untranslated.lore.2 = "to translate your language."
-untranslated.book = "<green><bold><click:open_url:'https://dc.kitpvp.world'>Apply here!<reset>"
+untranslated.name = "<gray>Didn't find your language?"
+untranslated.lore = """
+  <green>Help us<gray>, translate the network"
+  <br><gray>into your language.
+"""
+untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Help here!<reset"
 
 # Common
 [gui.common]
