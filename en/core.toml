@@ -1,5 +1,8 @@
 # Languages
-language.change = "Your language is now English (United States)<newline>Help us translate the network into your language on <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color></click>our Discord</click>."
+language.change = """
+  Your language is now English (United States.)
+  <br>Help us translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color></click>.
+"""
 
 [gui.languages]
 title = "Change language"
@@ -45,7 +48,7 @@ xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <leve
 ping.self = "Ping: <pri><ping>"
 ping.other = "The Ping of the player <sec><target><reset> is: <pri><ping>"
 
-language.unknown = "Language not found. <pri>Apply <reset> as a translator on <click:open_url'https://dc.kitpvp.world'><color:#5865f2>unserem Discord</color>our Discord</click>."
+language.unknown = "Language not found. <pri>Help us<reset> translate the network into your language on <click:open_url:'https://dc.kitpvp.world'><color:#5865f2>our Discord</color>."
 
 [commands.ranks]
 set = "Changed the rank of <pri><target><reset> to <sec><rank><reset."
