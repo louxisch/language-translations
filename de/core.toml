@@ -7,7 +7,7 @@ language.change = """
 title = "Sprache ändern"
 untranslated.name = "<gray>Sprache nicht gefunden?"
 untranslated.lore = """
-  <green>Hilf mit<gray>, das Netzwerk"
+  <green>Hilf mit<gray>, das Netzwerk
   <br><gray>in deine Sprache zu übersetzen.
 """
 untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset"
