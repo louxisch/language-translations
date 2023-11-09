@@ -11,7 +11,7 @@ untranslated.lore = """
   <green>Hilf mit<gray>, das Netzwerk
   <br><gray>in deine Sprache zu übersetzen.
 """
-untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset"
+untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Hilf mit!<reset>"
 
 # Generic Things
 [generic]
