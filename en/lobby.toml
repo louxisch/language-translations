@@ -44,7 +44,7 @@ clan = """
   <br>Clan Coins<gray>:
   <br><gold><clancoins>
   <br>
-  <br>Clan Spieler<gray>:
+  <br>Clan Members<gray>:
   <br><aqua><onlineclanmembers><gray>/<dark_gray><totalclanmembers>
 """
 
@@ -66,7 +66,7 @@ self = """
 """
 
 selfSecondary = """
-  <br>Rang<gray>:
+  <br>Rank<gray>:
   <br><rank>
   <br>
   <br>Elo<gray>:
