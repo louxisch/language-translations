@@ -2,11 +2,11 @@
 prefix = "<gray>[<yellow>KitPvP.World<gray>] <reset>"
 
 [[languages]] # First: will be the default language
-languageCode = "de"
-displayName = "Deutsch (Deutschland)"
-headId = 43579
-
-[[languages]]
 languageCode = "en"
 displayName = "English (United States)"
 headId = 44718
+
+[[languages]]
+languageCode = "de"
+displayName = "Deutsch (Deutschland)"
+headId = 43579
