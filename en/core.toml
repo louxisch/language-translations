@@ -11,7 +11,7 @@ untranslated.lore = """
   <green>Help us<gray>, translate the network"
   <br><gray>into your language.
 """
-untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Help here!<reset"
+untranslated.book = "<br><br><br><br><br><br><br><br><br><br><br><br><green><bold><click:open_url:'https://dc.kitpvp.world'>Help here!<reset>"
 
 # Common
 [gui.common]
