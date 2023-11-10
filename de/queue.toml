@@ -1,0 +1,20 @@
+[connection]
+build = "Du wirst auf den <pri>BauServer<reset> verbunden"
+
+[commands.duel]
+norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
+self = "Du kannst dich nicht selbst herausfordern?"
+requestReceived = """
+  <pri><user><reset> fordert dich in <kit><reset> heraus.
+  <green><bold><click:run_command:'/duel %1$s accept'>[Annehmen]</click></bold></green>
+  <red> <bold><click:run_command:'/duel %1$s decline'>[Ablehnen]</click></bold></red>
+"""
+requestSent = "Du hast den Spieler <pri><target><reset> in <kit><reset> herausgefordert."
+
+decline = "Du hast die Anfrage abgeleht."
+accept = "Du hast die Anfrage von <pri><name><reset> angenommen."
+
+[queue]
+join = "Du hast die <pri><queue><reset> betreten."
+matchFound = "Ein Match wurde gefunden."
+inNone = "Du warst in keiner Queue."
