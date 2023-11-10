@@ -16,5 +16,6 @@ accept = "Du hast die Anfrage von <pri><name><reset> angenommen."
 
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."
+leave = "Du hast die <pri><queue><reset> verlassen."
 matchFound = "Ein Match wurde gefunden."
 inNone = "Du warst in keiner Queue."
