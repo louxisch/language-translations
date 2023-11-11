@@ -6,13 +6,16 @@ norequest = "Du hast keine Anfrage von diesem Spieler bekommen."
 self = "Du kannst dich nicht selbst herausfordern?"
 requestReceived = """
   <pri><user><reset> fordert dich in <kit><reset> heraus.
-  <green><bold><click:run_command:'/duel %1$s accept'>[Annehmen]</click></bold></green>
-  <red> <bold><click:run_command:'/duel %1$s decline'>[Ablehnen]</click></bold></red>
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Annehmen</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>Ablehnen</bold>]</click></red>
 """
 requestSent = "Du hast den Spieler <pri><target><reset> in <kit><reset> herausgefordert."
 
 decline = "Du hast die Anfrage abgeleht."
 accept = "Du hast die Anfrage von <pri><name><reset> angenommen."
+
+[gui.challenge]
+title = "Herausfordern"
 
 [queue]
 join = "Du hast die <pri><queue><reset> betreten."
