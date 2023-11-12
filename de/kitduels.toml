@@ -11,6 +11,7 @@ stop = "<red>Spiel zu Ende"
 [event]
 player.leave = "<pri><name><reset> hat das Duel verlassen."
 player.join = "<pri><name><reset> hat das Spiel betreten."
+player.spectate = "<pri><name> <reset>schaut zu."
 
 [win]
 damageTaken = "Schaden erlitten: <aqua><self></aqua>/<red><opponent></red>"
