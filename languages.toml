@@ -1,5 +1,5 @@
 # A prefix used for every plugin
-prefix = "<gray>[<yellow>KitPvP.World<gray>] <reset>"
+prefix = "<gray>[<yellow>KitPvP<gray>] <reset>"
 
 [[languages]] # First: will be the default language
 languageCode = "en"
