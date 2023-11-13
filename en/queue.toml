@@ -1,0 +1,24 @@
+[connection]
+build = "You will be connected to the <pri>BauServer<reset>"
+
+[commands.duel]
+norequest = "You have not received a request from this player."
+self = "Why would you want to fight yourself?"
+requestReceived = """
+  <pri><user><reset> challenges you in <kit><reset>.
+  <br><green><click:run_command:'/duel %1$s accept'>[<bold>Accept</bold>]</click></green>
+  <red> <click:run_command:'/duel %1$s decline'>[<bold>Deny</bold>]</click></red>
+"""
+requestSent = "You have challenged <pri><target><reset> in <kit><reset>."
+
+decline = "You declined the request."
+accept = "You accepted <pri><name>'s<reset> request."
+
+[gui.challenge]
+title = "Challenge"
+
+[queue]
+join = "You have entered the <pri><queue><reset>."
+leave = "You left the <pri><queue><reset>."
+matchFound = "A match was found."
+inNone = "You weren't in any queue."
