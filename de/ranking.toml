@@ -1,0 +1,26 @@
+[gui.profile]
+globalItem = """
+    <blue>Platz<dark_gray>:<elorank>
+    <br><blue>Elo<dark_gray>:<elo>
+    <br><blue>Höchste Elo<dark_gray>:<topelo>
+    <br>
+    <br><blue>Gespielte Spiele<dark_gray>:<gray><gamesplayed>
+    <br><blue>Gewonnene Spiele<dark_gray>:<gray><gameswon>
+    <br>
+    <br><aqua>Winstreak<dark_gray>:<gray><winstreak>
+    <br><blue>Höchste Winstreak<dark_gray>:<Gray><topwinstreak>
+    <br>
+    <br><blue>Spielzeit<dark_gray>:<gray>Playtime
+"""
+
+kitItem = """
+    "<blue>Platz<dark_gray>: <elorank>
+    <br><blue>Elo<dark_gray>: <elo>
+    <br><blue>Höchste Elo<dark_gray>: <topelo>
+    <br>
+    <br><blue><dark_gray>: <gray><gamesplayed>
+    <br><blue>Gewonnene Spiele<dark_gray>: <gray><gameswon>
+    <br>
+    <br><blue>Winstreak<dark_gray>: <gray><winstreak>
+    <br><blue>Höchste Winstreak<dark_gray>: <gray><topwinstreak>
+"""
