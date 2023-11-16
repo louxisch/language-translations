@@ -1,26 +1,26 @@
 [gui.profile]
 globalItem = """
-    <blue>Platz<dark_gray>: <elorank>
-    <br><blue>Elo<dark_gray>: <elo>
-    <br><blue>Höchste Elo<dark_gray>: <topelo>
+    <gray>Platz<dark_gray>: <elorank>
+    <br><gray>Elo<dark_gray>: <elo>
+    <br><gray>Höchste Elo<dark_gray>: <topelo>
     <br>
-    <br><blue>Gespielte Spiele<dark_gray>:  <gamesplayed>
-    <br><blue>Gewonnene Spiele<dark_gray>: <gameswon>
+    <br><gray>Gespielte Spiele<dark_gray>:  <gamesplayed>
+    <br><gray>Gewonnene Spiele<dark_gray>: <gameswon>
     <br>
-    <br><blue>Winstreak<dark_gray>: <winstreak>
-    <br><blue>Höchste Winstreak<dark_gray>: <topwinstreak>
+    <br><gray>Winstreak<dark_gray>: <winstreak>
+    <br><gray>Höchste Winstreak<dark_gray>: <topwinstreak>
     <br>
-    <br><blue>Spielzeit<dark_gray>: <yellow><playtime>
+    <br><gray>Spielzeit<dark_gray>: <yellow><playtime>
 """
 
 kitItem = """
-    "<blue>Platz<dark_gray>: <elorank>
-    <br><blue>Elo<dark_gray>: <elo>
-    <br><blue>Höchste Elo<dark_gray>: <topelo>
+    "<gray>Platz<dark_gray>: <elorank>
+    <br><gray>Elo<dark_gray>: <elo>
+    <br><gray>Höchste Elo<dark_gray>: <topelo>
     <br>
-    <br><blue>Gespielte Spiele<dark_gray>: <gamesplayed>
-    <br><blue>Gewonnene Spiele<dark_gray>: <gameswon>
+    <br><gray>Gespielte Spiele<dark_gray>: <gamesplayed>
+    <br><gray>Gewonnene Spiele<dark_gray>: <gameswon>
     <br>
-    <br><blue>Winstreak<dark_gray>: <winstreak>
-    <br><blue>Höchste Winstreak<dark_gray>: <topwinstreak>
+    <br><gray>Winstreak<dark_gray>: <winstreak>
+    <br><gray>Höchste Winstreak<dark_gray>: <topwinstreak>
 """
