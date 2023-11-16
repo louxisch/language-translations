@@ -7,7 +7,7 @@ globalItem = """
     <br><blue>Gespielte Spiele<dark_gray>:  <gamesplayed>
     <br><blue>Gewonnene Spiele<dark_gray>: <gameswon>
     <br>
-    <br><aqua>Winstreak<dark_gray>: <winstreak>
+    <br><blue>Winstreak<dark_gray>: <winstreak>
     <br><blue>Höchste Winstreak<dark_gray>: <topwinstreak>
     <br>
     <br><blue>Spielzeit<dark_gray>: <yellow><playtime>
