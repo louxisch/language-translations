@@ -1,6 +1,6 @@
  [gui.profile]
 title = "<red>Profile"
-achievements = "<purple>Achievements"
+achievements = "Achievements"
 head.lore = """
     <rank><reset>
     <br><level><reset> 
