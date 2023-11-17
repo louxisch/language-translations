@@ -1,4 +1,10 @@
  [gui.profile]
+title = "<red>Profile"
+achievements = "<purple>Achievements"
+head.lore = """
+    <rank><reset>
+    <br><level><reset> 
+"""
 globalItem = """
     <gray>Rank<dark_gray>: <elorank>
     <br><gray>Elo<dark_gray>: <elo>
