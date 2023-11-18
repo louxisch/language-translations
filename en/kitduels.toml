@@ -5,7 +5,7 @@ noGame = "<red>No game found"
 
 [phases]
 start = "<green>Let the fight begin."
-border = "The border begins to shrink. The fight ends in <minutesLeft> minutes."
+border = "The border begins to shrink. The fight ends in <minutes_left> minutes."
 stop = "<red>Game ended."
 
 [event]
