@@ -5,7 +5,7 @@ noGame = "<red>Es wurde kein Spiel gefunden"
 
 [phases]
 start = "<green>Lasst den Kampf beginnen."
-border = "Die Border beginnt sich zu verkleinern. Der Kampf endet in <minutesLeft> Minuten."
+border = "Die Border beginnt sich zu verkleinern. Der Kampf endet in <minutes_left> Minuten."
 stop = "<red>Spiel zu Ende"
 
 [event]
