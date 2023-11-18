@@ -81,3 +81,8 @@ selfSecondary = """
   <br>Freunde<gray>:
   <br><green><onlinefriends><gray>/<dark_gray><totalfriends>
 """
+
+[features]
+levelup.title = """
+  
+"""
