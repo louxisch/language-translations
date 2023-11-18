@@ -32,7 +32,7 @@ message.tooSimilar = "This message is too similar to your last one."
 
 # Games
 [games.phase.counter]
-starting.secondsFormat = "The game starts in <pri><secondsLeft>s<reset>."
+starting.secondsFormat = "The game starts in <pri><seconds_left>s<reset>."
 stopping.secondsFormat = "The game stops in <pri><seconds_left>s<reset>."
 
 # Commands
