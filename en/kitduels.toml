@@ -27,4 +27,4 @@ leave = "<red>Leave"
 
 [commands.game]
 error.minimum = "There must be at least two players in a duel."
-start = "Starting game <gameId>"
+start = "Starting game <game_id>"
