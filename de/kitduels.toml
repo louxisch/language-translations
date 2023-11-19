@@ -18,7 +18,11 @@ win = """
 """
 
 [win]
-damageTaken = "Schaden erlitten: <aqua><self></aqua>/<red><opponent></red>"
+stats = """
+  Schaden erlitten: <aqua><damage_taken_self></aqua>/<red><damage_taken_opponent></red>
+  Herzen: <aqua><health_self> ❤</aqua>/<red><health_opponent> ❤y</red>
+"""
+
 elo = "<winner> (<winnerelo>) (+<winnerelodifference>) <reset>hat <red><loser> (<loserelo>) (<loserelodifference>) <reset>in Kit <kit><reset> besiegt."
 win = "In einem epischem Kampf gegen Leben und Tot entschied <pri><name> <reset>für sich."
 
