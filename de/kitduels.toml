@@ -19,7 +19,7 @@ win = """
 
 [win]
 stats = """
-  <br>Schaden: <aqua><damage_taken_self></aqua>/<red><damage_taken_opponent></red>
+  <br>Schaden erlitten: <aqua><damage_taken_self></aqua>/<red><damage_taken_opponent></red>
   <br>Herzen: <aqua><health_self>❤</aqua>/<red><health_opponent>❤</red>
 """
 
