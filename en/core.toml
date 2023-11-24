@@ -50,7 +50,7 @@ xp.self = "You have <pri><xp><reset> XP and are therefore level <level><reset> <
 xp.other = "<target><reset> has <pri><xp><reset> XP and is therefore level <level><reset> <dark_gray>[<progress><reset><dark_gray>]"
 
 xp = """
-  <br>-= <yellow>Level statistics of <gold><bold><name><reset> =-
+  <br><yellow>Level statistics of <gold><bold><name><reset>
   <br>Rank: <rank><reset>
   <br>Level: <level><reset>
   <br>Collected XP: <xp><reset> <dark_gray>[<xp_bar><reset><dark_gray>]<reset>
