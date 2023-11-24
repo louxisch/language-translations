@@ -43,7 +43,7 @@ coins.other.singular = "<pri><target><reset> hat gerade <gold>ein Coin."
 coins.other.plural = "<pri><target><reset> hat gerade <gold><coins> Coins."
 
 xp = """
-  <br>-= <yellow>Level Statistiken von <gold><bold><name><reset> =-
+  <br><yellow>Level Statistiken von <gold><bold><name><reset>
   <br>Platzierung: <rank><reset>
   <br>Level: <level><reset>
   <br>Gesammelte Erfahrung: <xp><reset> <dark_gray>[<xp_bar><reset><dark_gray>]<reset>
