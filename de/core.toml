@@ -46,7 +46,7 @@ xp = """
   <br><yellow>Level Statistiken von <gold><bold><name><reset>
   <br>Platzierung: <rank><reset>
   <br>Level: <level><reset>
-  <br>Gesammelte Erfahrung: <xp><reset><yellow><xp_needed><reset>
+  <br>Gesammelte Erfahrung: <xp><reset>/<yellow><xp_needed><reset>
   <br><dark_gray>| » <xp_bar><reset>
   <br>Gesammelte Achievements: <pri><achievements><reset>/<sec><total_achievements><reset>
 """
