@@ -91,3 +91,6 @@ report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-
 bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Meldet ein Bug bei dem Serverteam"
 profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt die Ranked Stats von dem Spieler"
 stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die allgemeinen Stats von dem Spieler"
+
+[moderation]
+warned = "<pri><target><reset> wurde für <sec><reason><reset>gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
