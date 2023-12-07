@@ -27,7 +27,7 @@ error.kit.unknown = "Kit wurde nicht gefunden."
 # Chat
 [chat]
 message.tooSimilar = "Diese Nachricht ähnelt sich zu sehr deiner letzten."
-message.spam = "Hey! Nicht so schnell!"
+message.spam = "Du schickst Nachrichten zu schnell ab."
 
 # Games
 [games.phase.counter]
