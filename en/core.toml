@@ -98,3 +98,6 @@ report = "<yellow><click:suggest_command:'/report '>/report</click> <dark_gray>-
 bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> Reports a bug to the server team"
 profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Shows your ranked stats in each mode"
 stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Shows the player's overall stats"
+
+[moderation]
+warned = "<pri><target><reset> was warnt for <sec><reason><reset> and is now for <red><days_banned><reset> days banned."
