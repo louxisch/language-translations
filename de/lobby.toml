@@ -30,6 +30,9 @@ saved = "Die Inventarsortierung wurde gespeichert."
 error = "Ein Fehler ist passiert. Bitte versuche es erneut und kontaktiere den Support."
 reset = "Zurücksetzen"
 
+[leaderboard]
+loading = "Das Leaderboard läd derzeit noch! Der Vorgang kann bis zu 3 Sekunden dauern."
+
 [scoreboard]
 clan = """
   <br>Clan<gray>:
