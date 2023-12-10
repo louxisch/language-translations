@@ -54,8 +54,9 @@ xp = """
   <br><yellow>Level statistics of <gold><bold><name><reset>
   <br>Rank: <rank><reset>
   <br>Level: <level><reset>
-  <br>Collected XP: <xp><reset> <dark_gray>[<xp_bar><reset><dark_gray>]<reset>
-  <br>Collected achievements: <pri><achievements><reset>/<sec><total_achievements><reset>
+  <br>Collected XP: <xp><reset>/<yellow><xp_needed><reset>
+  <br><dark_gray>| » <xp_bar><reset>
+  <br>Collected Achievements: <pri><achievements><reset>/<sec><total_achievements><reset>
 """
 
 ping.self = "Ping: <pri><ping>"
