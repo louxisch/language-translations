@@ -93,5 +93,23 @@ bug = "<yellow><click:suggest_command:'/bug '>/bug</click> <dark_gray>-<reset> M
 profile = "<yellow><click:suggest_command:'/profile '>/profile</click> <dark_gray>-<reset> Zeigt die Ranked Stats von dem Spieler"
 stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<reset> Zeigt die allgemeinen Stats von dem Spieler"
 
+# Moderation Stuff
+
 [moderation]
-warned = "<pri><target><reset> wurde für <sec><reason><reset>gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
+report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
+
+[moderation.report.reason]
+cheating = "Cheating"
+chat = "Chat Nachricht(en)"
+kiting = "Kiting"
+skin = "Skin"
+name = "Benutzername"
+clan = "Clan-Name"
+status = "Freundesstatus"
+hunting = "Hunting"
+teaming = "Teaming"
+boosting = "Boosting"
+trolling = "Trolling"
+
+[gui]
