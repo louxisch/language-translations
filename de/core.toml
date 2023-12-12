@@ -98,7 +98,7 @@ stats = "<yellow><click:suggest_command:'/stats '>/stats</click> <dark_gray>-<re
 [moderation]
 warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist nun <red><days_banned><reset> Tage gebannt."
 report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
-mute.error = "Du wurdest für <red><duration><reset> wegen Beleidigungen aus dem Chat gesperrt: <br><reason>"
+error.mute = "Du wurdest für <red><duration><reset> wegen Beleidigungen aus dem Chat gesperrt: <br><reason>"
 
 [moderation.report.reason]
 cheating = "Cheating"
