@@ -100,6 +100,23 @@ warned = "<pri><target><reset> wurde für <sec><reason><reset> gewarnt und ist n
 report = "Du hast den Spieler <pri><target><reset> für <sec><reason> gemeldet."
 error.mute = "Du wurdest für <red><duration><reset> wegen Fehlverhalten aus dem Chat gesperrt: <br><reason>"
 
+admin.profile.loading = "Lade Profil von <target><reset>..."
+admin.profile = """
+  Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
+  Status: <status><reset><br>
+  Zuletzt Online: <last_online><br>
+  Dauer der Session: <session_time><br>
+  <br>
+  Client Brand: <brand><reset><br>
+  IP: <ip><reset><br>
+  ISP (Host Name): <host_name><reset><br>
+  <br>
+  Crafty Profil: <crafty><reset><br>
+  Verdächtige Alts: <hover:show_text:'<yellow>Anzeigen'><click:run_command:'%s'><alts></hover>
+  <br>
+  Profil-Ladezeit: <loading_time>ms<reset>
+"""
+
 [moderation.report.reason]
 cheating = "Cheating"
 chat = "Chat Nachricht(en)"
