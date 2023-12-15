@@ -105,6 +105,36 @@ warned = "<pri><target><reset> was warnt for <sec><reason><reset> and is now for
 report = "You reported the player <pri><target><reset> for <sec><reason>."
 error.mute = "You were banned from the chat for <red><duration><reset> because of misbehavior: <br><reason>"
 
+admin.profile.loading = "Loading Profile of <target><reset>..."
+admin.profile = """
+  Moderation profile from <pri><target><reset> (<rank><reset>)<br>
+  <br>
+  Status: <status><reset><br>
+  Last Online: <last_online><reset><br>
+  Duration of the session: <session_time><reset><br>
+  <br>
+  Client Brand: <brand><reset><br>
+  IP: <ip><reset><br>
+  ISP (Host Name): <host_name><reset><br>
+  <br>
+  NameMC Profile: <namemc><reset><br>
+  Crafty Profile: <crafty><reset><br>
+  Laby Profile: <laby><reset><br>
+  Suspicious Alts: <hover:show_text:'<yellow>Anzeigen'><alts><reset><br>
+  <br>
+  Profile loading time: <loading_time>ms<reset>
+"""
+
+admin.alts = """
+  Suspicious accounts from <pri><target><reset> (<rank><reset>)<br>
+  <br>
+  <alts><br>
+  <own_profile><reset> (Own profile) 
+  <br>
+  Alts loading Time: <loading_time>ms<reset>
+"""
+
+
 [moderation.report.reason]
 cheating = "Cheating"
 chat = "Chat Nachricht(en)"
