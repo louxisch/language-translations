@@ -105,8 +105,8 @@ admin.profile = """
   Moderationsprofil von <pri><target><reset> (<rank><reset>)<br>
   <br>
   Status: <status><reset><br>
-  Zuletzt Online: <last_online><br>
-  Dauer der Session: <session_time><br>
+  Zuletzt Online: <last_online><reset><br>
+  Dauer der Session: <session_time><reset><br>
   <br>
   Client Brand: <brand><reset><br>
   IP: <ip><reset><br>
