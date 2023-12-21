@@ -1,6 +1,8 @@
  [gui.profile]
 title = "<red>Profile"
 achievements = "Achievements"
+next.lore = "<yellow>zu Season <season>"
+previous.lore = "<yellow>zu Season <season>"
 head.lore = """
     <rank><reset>
     <br><level><reset> 
