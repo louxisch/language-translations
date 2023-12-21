@@ -24,6 +24,11 @@ error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
 error.rank.unknown = "Dieser Rang existiert nicht."
 error.kit.unknown = "Kit wurde nicht gefunden."
 
+next = "Weiter"
+previous = "Zurück"
+
+# Profile
+
 # Chat
 [chat]
 message.tooSimilar = "Diese Nachricht ähnelt sich zu sehr deiner letzten."
