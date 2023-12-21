@@ -24,8 +24,8 @@ error.target.unknown = "Dieser Spieler ist uns nicht bekannt."
 error.rank.unknown = "Dieser Rang existiert nicht."
 error.kit.unknown = "Kit wurde nicht gefunden."
 
-next = "Weiter"
-previous = "Zurück"
+next = "Seite vor"
+previous = "Seite zurück"
 
 # Profile
 
