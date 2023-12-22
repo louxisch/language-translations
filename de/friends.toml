@@ -1,0 +1,56 @@
+friend.accept = "Akzeptieren"
+friend.accept.error = "Die Freundschaftsanfrage konnte nicht akzeptiert werden"
+friend.decline = "Ablehnen"
+
+[gui.friend]
+settings.friend.title = "Freundeseinstellungen"
+settings.clan.title = "Claneinstellungen"
+settings.requests.title = "Anfrageeinstellungen"
+
+main.title = "Freunde"
+party.title = "Partys"
+changeStatus.title = "Freundestatus ändern"
+requests.title = "Freundschaftsanfragen"
+settings.title = "Einstellungen"
+settings.request.title = "Anfrageeinstellungen"
+settings.clanRequests.title = "Clananfrageeinstellungen"
+
+[gui.friend.settings.friendRequests]
+title = "Freundschaftsanfrageeinstellungen"
+default = "<gray>Spieler"
+default.lore = "<gray>Jeder darf dir Freundschaftsanfragen senden"
+premium = "<gold>Premium"
+premium.lore = "<gray>Premiums dürfen dir Freundschaftsanfragen senden"
+youtube = "<dark_red>YT / VIP"
+youtube.lore = "<gray>YouTuber / Streamer dürfen dir Freundschaftsanfragen senden"
+team = "<red>Team"
+team.lore = "<gray>Unser Team darf dir Freundschaftsanfragen senden"
+party = "<light_purple>Party"
+party.lore = "<gray>Party-Mitglieder dürfen dir Freundschaftsanfragen senden"
+clan = "<yellow>Clan"
+clan.lore = "<gray>Clan-Mitglieder dürfen dir Freundschaftsanfragen senden"
+
+target.inviteClan = "Zum Clan einladen"
+target.favourite.add = "Als Favorite hinzufügen"
+target.favourite.remove = "Als Favorite entfernen"
+target.inviteParty = "In Party einladen"
+target.jump = "Nachspringen"
+target.remove = "Freund entfernen"
+
+[commands.friend]
+error.notFriend = "Dieser Spieler ist nicht dein Freund."
+
+add = "Du hast eine Freundschaftsanfrage an <target><reset> gesendet."
+add.friend = "Dieser Spieler ist schon dein Freund."
+add.off = "Dieser Spieler akzeptiert deine Anfrage nicht."
+accept = "Du hast die Freundschaftsanfrage von <target><reset> angenommen."
+accept.noRequest = "Du hast keine Freundschaftsanfrage von diesem Spieler bekommen."
+decline = "Du hast die Freundschaftsanfrage von <target><reset> abgelehnt."
+
+remove = "Dieser Spieler ist nun nicht mehr dein Freund."
+remove.error = "Beim Entfernen ist ein Fehler aufgetreten. War dieser Spieler überhaupt dein Freund?"
+
+favourite.add = ""
+favourite.add.error = "Das Hinzufügen des Favoriten ist fehlgeschlagen."
+favourite.remove = ""
+favourite.remove.error = "Das Entfernen des Favoriten ist fehlschlagen."
