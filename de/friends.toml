@@ -3,8 +3,9 @@ friend.accept.error = "Die Freundschaftsanfrage konnte nicht akzeptiert werden"
 friend.decline = "Ablehnen"
 friend.lastOnline = "Zuletzt Online: "
 friend.request = """
-Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:
-<bold><click:run_command:'%s'>[<green>Akzeptieren</green>]</bold></click> <dark_gray>|<reset> <bold><click:run_command:'%s'>[<red>Ablehnen</red>]</click>
+Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:<br>
+<br><green><click:run_command:'%s'>[<bold>Annehmen</bold>]</click></green>
+<red> <click:run_command:'%s'>[<bold>Ablehnen</bold>]</click></red>
 """
 
 [gui.friend]
