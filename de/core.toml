@@ -27,6 +27,14 @@ error.kit.unknown = "Kit wurde nicht gefunden."
 next = "Seite vor"
 previous = "Seite zurück"
 
+[time.relative]
+seconds = "Vor %s s"
+minutes = "Vor %s min."
+hours = "Vor %s h"
+days = "Vor %s d"
+months = "Vor %s m"
+
+
 # Profile
 
 # Chat
