@@ -1,6 +1,11 @@
 friend.accept = "Akzeptieren"
 friend.accept.error = "Die Freundschaftsanfrage konnte nicht akzeptiert werden"
 friend.decline = "Ablehnen"
+friend.lastOnline = "Zuletzt Online: "
+friend.request = """
+Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:
+<bold><click:run_command:'%s'>[<green>Akzeptieren</green>]</bold></click> <dark_gray>|<reset> <bold><click:run_command:'%s'>[<red>Ablehnen</red>]</click>
+"""
 
 [gui.friend]
 settings.friend.title = "Freundeseinstellungen"
@@ -50,7 +55,14 @@ decline = "Du hast die Freundschaftsanfrage von <target><reset> abgelehnt."
 remove = "Dieser Spieler ist nun nicht mehr dein Freund."
 remove.error = "Beim Entfernen ist ein Fehler aufgetreten. War dieser Spieler überhaupt dein Freund?"
 
-favourite.add = "Da "
+favourite.add = "<target><reset> wurde zu deinen Favoriten hinzugefügt."
 favourite.add.error = "Das Hinzufügen des Favoriten ist fehlgeschlagen."
-favourite.remove = "Da "
+favourite.remove = "<target><reset> wurde aus deinen Favoriten entfernt."
 favourite.remove.error = "Das Entfernen des Favoriten ist fehlschlagen."
+
+list = """Deine Freundesliste (Seite <page><reset>):<br>
+  <list>
+"""
+
+cancel = "Die Freundschaftsanfrage zu <target><reset> wurde zurückgezogen."
+cancel.noRequest = "Du hast dem Spieler <target><reset> keine Freundschaftsanfrage gesendet."
