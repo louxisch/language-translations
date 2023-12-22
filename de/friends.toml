@@ -8,7 +8,6 @@ Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:
 """
 
 [gui.friend]
-settings.friend.title = "Freundeseinstellungen"
 settings.clan.title = "Claneinstellungen"
 settings.requests.title = "Anfrageeinstellungen"
 
@@ -19,6 +18,13 @@ requests.title = "Freundschaftsanfragen"
 settings.title = "Einstellungen"
 settings.request.title = "Anfrageeinstellungen"
 settings.clanRequests.title = "Clananfrageeinstellungen"
+
+target.inviteClan = "Zum Clan einladen"
+target.favourite.add = "Als Favorite hinzufügen"
+target.favourite.remove = "Als Favorite entfernen"
+target.inviteParty = "In Party einladen"
+target.jump = "Nachspringen"
+target.remove = "Freund entfernen"
 
 [gui.friend.settings.friendRequests]
 title = "Freundschaftsanfrageeinstellungen"
@@ -35,12 +41,10 @@ party.lore = "<gray>Party-Mitglieder dürfen dir Freundschaftsanfragen senden"
 clan = "<yellow>Clan"
 clan.lore = "<gray>Clan-Mitglieder dürfen dir Freundschaftsanfragen senden"
 
-target.inviteClan = "Zum Clan einladen"
-target.favourite.add = "Als Favorite hinzufügen"
-target.favourite.remove = "Als Favorite entfernen"
-target.inviteParty = "In Party einladen"
-target.jump = "Nachspringen"
-target.remove = "Freund entfernen"
+[gui.friend.settings.friend]
+title = "Freundeseinstellungen"
+
+
 
 [commands.friend]
 error.notFriend = "Dieser Spieler ist nicht dein Freund."
