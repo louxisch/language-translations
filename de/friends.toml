@@ -43,8 +43,16 @@ clan.lore = "<gray>Clan-Mitglieder dürfen dir Freundschaftsanfragen senden"
 
 [gui.friend.settings.friend]
 title = "Freundeseinstellungen"
-
-
+allowPrivateMessages = "Erlaube Privatnachrichten"
+allowPrivateMessages.lore = "Deine Freunde können dir eine Nachricht per MSG senden"
+allowOfflinePrivateMessages = "Erlaube Offline-Nachrichten"
+allowOfflinePrivateMessages.lore = "Freunde können dir Nachrichten senden, obwohl du offline bist"
+announceFriendOnlineStatus = "Online -und Offlinenachrichten anzeigen"
+announceFriendOnlineStatus.lore = "Bekomme eine Chatnachricht, wenn dein Freund den Server betritt/verlässt"
+allowSpectate = "Zuschauen erlauben"
+allowSpectate.lore = "Erlaube deinen Freunden deine Spiele zu beobachten"
+showOnlineStatus = "Onlinestatus anzeigen"
+showOnlineStatus.lore = "Erlaube deinen Freunden zu sehen ob du Online bist"
 
 [commands.friend]
 error.notFriend = "Dieser Spieler ist nicht dein Freund."
