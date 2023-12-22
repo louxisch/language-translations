@@ -4,7 +4,7 @@ friend.decline = "Ablehnen"
 friend.lastOnline = "Zuletzt Online: "
 friend.request = """
 Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:<br>
-<br><green><click:run_command:'%s'>[<bold>Annehmen</bold>]</click></green>
+<green><click:run_command:'%s'>[<bold>Annehmen</bold>]</click></green>
 <red> <click:run_command:'%s'>[<bold>Ablehnen</bold>]</click></red>
 """
 
