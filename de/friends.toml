@@ -77,5 +77,9 @@ list = """Deine Freundesliste (Seite <page><reset>):<br>
   <list>
 """
 
+clear = "Du hast <pri><friends> Freunde<reset> entfernt."
+clear.all.confirm = "Bist du dir sicher, dass du <bold>alle deine Freunde</bold> (<bold>einschließlich Favoriten</bold>) löschen willst? Diesen Vorgang kannst du nicht wieder rückgängig machen! <br><confirm>"
+clear.confirm = "Bist du dir sicher, dass du <bold>alle deine Freunde</bold> außer Favoriten löschen willst? Diesen Vorgang kannst du nicht wieder rückgängig machen! <br><confirm>"
+
 cancel = "Die Freundschaftsanfrage zu <target><reset> wurde zurückgezogen."
 cancel.noRequest = "Du hast dem Spieler <target><reset> keine Freundschaftsanfrage gesendet."
