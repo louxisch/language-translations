@@ -10,3 +10,8 @@ headId = 44718
 languageCode = "de"
 displayName = "Deutsch (Deutschland)"
 headId = 43579
+
+[[languages]]
+languageCode = "es"
+displayName = "Español (España)"
+headId = 49449
