@@ -9,6 +9,9 @@ Du hast eine Freundschaftsanfrage von dem Spieler <target><reset> erhalten:<br>
 <red> <click:run_command:'%s'>[<bold>Ablehnen</bold>]</click></red>
 """
 
+friend.join = "<sec><bold>●<reset> Dein Freund <friend><reset> ist nun <sec>online<reset>."
+friend.leave = "<red><bold>●<reset> Dein Freund <friend><reset> ist nun <red>offline<reset>."
+
 [gui.friend]
 settings.clan.title = "Claneinstellungen"
 settings.requests.title = "Anfrageeinstellungen"
