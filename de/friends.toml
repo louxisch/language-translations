@@ -88,6 +88,6 @@ cancel = "Die Freundschaftsanfrage zu <target><reset> wurde zurückgezogen."
 cancel.noRequest = "Du hast dem Spieler <target><reset> keine Freundschaftsanfrage gesendet."
 cancel.all = "Du hast <pri><requests> Freundschaftsanfragen<reset> abgebrochen."
 
-requests = """Freundschaftsanfragen (Seite <page><reset>): <br>
+request = """Freundschaftsanfragen (Seite <page><reset>): <br>
 <list>
 """
